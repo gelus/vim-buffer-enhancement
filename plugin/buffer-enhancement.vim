@@ -7,10 +7,8 @@ endfunction
 
 function! Go_To_Buffer(num)
   if a:num == 0
-   echo 'here'
    exe "normal! \<c-^>"
   elseif has_key(s:myBuffers, a:num)
-    echo 'if'
     execute "buf " . s:myBuffers[a:num]
   elseif bufexists(a:num)
     execute "buf " . a:num
