@@ -1,11 +1,11 @@
 vim-buffer-enhancement
 ======================
 
-A small buffer enhancement for vim, enabling the "Re-ordering" of buffer
+A small buffer enhancement for vim, enabling the "Re-ordering" of buffers
 
 ------------------------------------------------------------------------
 
-Managing files with buffers is great! Once you get the hang of mentally keeping track of buffer numbers vim makes switching between them as simple at 3<C-^>!
+Managing files with buffers is great! Once you get the hang of mentally keeping track of buffer numbers vim makes switching between them as simples as ```3<C-^>```!
 
 Unfortunately buffer numbers get pretty long. I myself find it annoying when I can't hit a buffer number with just my left hand.
 
@@ -35,7 +35,7 @@ To assign a new number to your buffer, ( more accurately, to add a mapping for a
 ```
 <count><leader><C-6>
 ```
-This will assign the current buffer to <count>.
+This will assign the current buffer to whatever was count.
 you can then access that buffer just as you would if it had the buffer number you assigned
 ```
 <count><C-6>
